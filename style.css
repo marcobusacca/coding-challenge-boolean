@@ -1,0 +1,206 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+
+
+
+body {
+
+    background-image: url(background.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+div {
+
+    margin: auto;
+
+}
+
+
+section {
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+
+}
+
+
+
+
+
+h1, h2, span {
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+
+
+body > div {
+
+    width: 63%;
+
+    margin-top: 1%;
+
+    padding-bottom: 5%;
+
+
+    background-color: rgba(0, 0, 0, 0.448);
+
+    border-radius: 25px;
+
+}
+
+
+
+
+
+div > header, nav {
+
+    text-align: center;
+
+}
+
+
+
+
+
+header > img {
+
+    width: 20%;
+    margin-top: 8%;
+
+}
+
+
+header > h1 {
+
+    margin: 1%;
+
+    color: lime;
+    font-size: 40px;
+
+}
+
+
+
+
+
+nav > div {
+
+    width: 82%;
+
+    padding: 1%;
+
+    background-color: rgba(0, 255, 0, 0.75);
+
+}
+
+
+
+
+
+section > div, span {
+
+    margin-left: 9%;
+    padding: 2px;
+
+    display: block;
+
+}
+
+
+section input, h2 {
+
+    display: inline;
+
+}
+
+
+
+
+
+section h2 {
+
+    margin-left: 5px;
+
+    font-size: 25px;
+    
+}
+
+
+
+
+
+section h2, span {
+
+    color: white;
+
+}
+
+
+
+
+
+section span:last-child {
+
+    margin-top: 5px;
+
+    height: 25px;
+
+    border-radius: 5px;
+
+}
+
+
+
+
+
+.indirizzo:before {
+
+    content: "\21A6 ";
+
+}
+
+
+
+
+
+#barra-stato-carica-1 {
+
+    margin-right: 65%;
+
+    background-color: orange;
+
+}
+
+
+#barra-stato-carica-2 {
+
+    margin-right: 45%;
+
+    background-color: greenyellow ;
+
+}
+
+
+#barra-stato-carica-3 {
+
+    margin-right: 80%;
+
+    background-color: red ;
+
+}
